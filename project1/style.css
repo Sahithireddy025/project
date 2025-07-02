@@ -1,0 +1,46 @@
+body{
+    background-color:pink;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    height:100vh;
+}
+h1{
+    color:blueviolet;
+}
+
+.container{
+    padding: 30px;
+    background-color: black;
+}
+
+.input-section{
+    display:flex;
+    gap:10px;
+}
+
+button {
+  padding: 8px 12px;
+  background:aqua;
+  color: red;
+  border: 100px;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+li {
+  padding: 8px 5px;
+  border-bottom: 2px add brown;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: black;
+}
